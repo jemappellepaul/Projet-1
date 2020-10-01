@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="player.js"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- titre de l'onglet -->
     <title>Bonsoir</title>
@@ -36,7 +37,7 @@
                     </li>
                     <li>
                         <!-- quatrième boutton -->
-                        <a href="affiche.html" title="affiche">affiche</a>
+                        <a href="affiche.html" title="affiche">Affiche</a>
                     </li>
                     <li>
                         <!-- dernier boutton -->
@@ -51,14 +52,27 @@
         <!-- "Compte a rebourd" -->
         <span class="clock">15d  24h 17m 30s</span>
         <!-- boutton pour des détails -->
-        <input href="#" title="details">Détails</input>
+        <a href="#" title="details">Détails</a>
         <!-- boutton pour les billets -->
-        <input href="#" title="Achat">Billets</input>
+        <a href="#" title="Achat">Billets</a>
         </div>
         <!-- lecteur de musique -->
-        <div class="music">
-            
-        </div>
-    
+            <div id="project-wrapper">
+                <div id="project-container">
+                    <div id="overlay"></div>
+                    <div id="content">
+                        <h2>Throne</h2>
+                        <h3>Bring Me The Horizon</h3>
+                        <input type="range" value="30" />
+                        <div id="controls">
+                            <div class="column"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+                            <div class="column"><i class="fa fa-step-backward" aria-hidden="true"></i></div>
+                            <div class="column"><i class="fa fa-play play-btn fa-fw" aria-hidden="true"></i></div>
+                            <div class="column"><i class="fa fa-step-forward" aria-hidden="true"></i></div>
+                            <div class="column active"><i class="fa fa-random" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
 </body>
 </html>
