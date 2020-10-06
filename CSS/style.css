@@ -11,9 +11,101 @@ body {
 
 /* Ticket */
 
+.ticket_top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ticket_top span {
+    color: #e7e7e7;
+}
+
+#white {
+    color: #e7e7e7;
+    font-size: 30px;
+}
+
+#pink {
+    color: #873a6a;
+    font-size: 30px;
+}
+
+.ticket_titre {
+    margin: 50px 0px 30px 0px;
+}
+
 .block_ticket {
     display: flex;
     justify-content: center;
+}
+
+.block_ticket button {
+     border-radius: 20px;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: #30bca4;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+}
+
+.block_ticket span {
+    margin: 0px 0px 20px 0px;
+}
+
+.ticket_contener {
+    background-color: #101c2a;
+}
+
+.ticket_color {
+    color: #e7e7e7;
+    margin: 0px 0px 10px 0px;
+}
+
+.prix{
+    color: #873a6a;
+}
+
+.free {
+    width: 250px;
+    margin: 70px 10px 60px 0px;
+    text-align: center;
+    border-right-color: #3f3f3f;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding: 20px 15px 20px 0px;
+}
+
+.silver {
+    width: 250px;
+    margin: 70px 10px 60px 10px;
+    text-align: center;
+    border-right-color: #3f3f3f;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding: 20px 15px 20px 0px;
+}
+
+.gold {
+    width: 250px;
+    margin: 70px 10px 60px 10px;
+    text-align: center;
+    border-right-color: #3f3f3f;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding: 20px 15px 20px 0px;
+}
+
+.vip {
+    width: 250px;
+    margin: 70px 0px 60px 10px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
 
