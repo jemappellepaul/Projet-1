@@ -4,3 +4,112 @@ ul.rs{
 img{
     size: 10px;
 }
+
+body {
+    margin: 0;
+}
+
+/* Ticket */
+
+.block_ticket {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Album / Footer */
+
+/* Top footer */
+
+.block_top_footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.contact {
+    width: 260px;
+    margin: 50px 20px 40px 20px;
+    color: #4d4d4d;
+}
+
+.contact h2 {
+    color: #d2d2d2;
+    font-size: 19px;
+}
+
+.twitter {
+    width: 260px;
+    margin: 50px 20px 40px 20px;
+    color: #4d4d4d;
+}
+
+.twitter h2 {
+    color: #d2d2d2;
+    font-size: 19px;
+}
+
+.instagram {
+    width: 260px;
+    margin: 50px 20px 40px 20px;
+    color: #4d4d4d;
+}
+
+.instagram h2 {
+    color: #d2d2d2;
+    font-size: 19px;
+}
+
+.newsletter {
+    width: 260px;
+    margin: 50px 20px 40px 20px;
+    color: #4d4d4d;
+}
+
+.newsletter h2 {
+    color: #d2d2d2;
+    font-size: 19px;
+}
+
+.newsletter input {
+    width: 200px;
+    height: 40px;
+    background-color: #292929;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.newsletter ::placeholder {
+    color: #747474;
+}
+
+.newsletter button {
+    border-radius: 20px;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: #30bca4;
+    font-weight: bold;
+}
+
+/* Bot Footer */
+
+.block_bot_footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #020f1d;
+}
+
+.footer_reseaux {
+    margin: 0px 250px 0px 0px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
+
+.footer_logo {
+    margin: 0px 0px 0px 250px;
+    color: white;
+}
