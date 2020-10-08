@@ -6,64 +6,78 @@
     <link rel="stylesheet" href="player.js"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <!-- titre de l'onglet -->
     <title>Bonsoir</title>
 </head>
 <!-- Corps HTML -->
-<body>
+<body class="index">
     <!-- header -->
     <header>
         <!-- Logo -->
         <a href="index.html" class="logo">
-        <img src="source" alt="Logo" width="" height="" />
+        <img src="images\images.jpg" alt="Logo" width="" height="" />
         </a>
             <!-- Menu-->
             <nav>
                 <ul>
                     <li>
                         <!-- premier boutton -->
-                        <a href="index.html" title="Home">Home</a>
+                        <a href="index.html" title="Home">ACCEUIL</a>
                     </li>
                     <li>
                         <!-- second boutton -->
-                        <a href="calendrier.html" title="Calendrier">Calendrier</a>
+                        <a href="calendrier.html" title="Calendrier">CALENDRIER</a>
                     </li>
                     <li>
                         <!-- troisième boutton -->
-                        <a href="ticket.html" title="Ticket">Ticket</a>
+                        <a href="ticket.html" title="Ticket">TICKET</a>
                     </li>
                     <li>
                         <!-- quatrième boutton -->
-                        <a href="blog.html" title="Blog">Blog</a>
+                        <a href="blog.html" title="Blog">BLOG</a>
                     </li>
                     <li>
                         <!-- quatrième boutton -->
-                        <a href="affiche.html" title="affiche">Affiche</a>
+                        <a href="affiche.html" title="affiche">AFFICHE</a>
                     </li>
                     <li>
                         <!-- dernier boutton -->
-                        <a href="Album.html" title="Album">Album</a>
+                        <a href="Album.html" title="Album">ALBUM</a>
                     </li>
                 </ul>
             </nav>
     </header>
-        <div class="mid_block">
             <!-- phrase d'introduction -->
-        <h1 class="title">Festival feel the beat</h1>
-        <!-- "Compte a rebourd" -->
-        <span class="clock">15d  24h 17m 30s</span>
-        <!-- boutton pour des détails -->
-        <button href="#" title="details">Détails</button >
-        <!-- boutton pour les billets -->
-        <button href="#" title="Achat">Billets</button>
+        <h1 class="title">Festival Feel The <br> Beat</h1>
+        <div class="block_date">
+        <!-- "Compte a rebours" -->
+        <div class="block1">
+            <span class="clock">15</span>
+            <span class="day">Jours</span></div>
+        <div class="block2">
+            <span class="clock">24</span>
+            <span class="day">Heures</span></div>
+        <div class="block3">
+            <span class="clock">17</span>
+            <span class="day">Min</span></div>
+        <div class="block4">
+            <span class="clock">30</span>
+            <span class="day">Sec</span>
         </div>
+    </div>
+        <!-- boutton pour des détails -->
+        <a class="boutons" href="#" title="details">Détails</a>
+        <!-- boutton pour les billets -->
+        <a class="bouton" href="ticket.html" title="Achat">Billets</a>
+        
         <!-- lecteur de musique -->
             <div id="project-wrapper">
                 <div id="project-container">
                     <div id="overlay"></div>
                     <div id="content">
-                        <h2>Throne</h2>
-                        <h3>Bring Me The Horizon</h3>
+                        <h2 class="titre">Bring Me The Horizon</h2></br>
+                        <h3 class="titre">Throne</h3>
                         <input type="range" value="30" />
                         <div id="controls">
                             <div class="column"><i class="fa fa-refresh" aria-hidden="true"></i></div>

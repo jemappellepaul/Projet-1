@@ -7,12 +7,99 @@ ul.rs{
 img{
     size: 10px;
 }
-/* body{
-    background-color: darkblue;
-} */
-
 body {
     margin: 0;
+}
+body.index{
+    background-image: url(../images/holi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Index */
+
+/* Menu */
+nav{
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+nav a{
+	display:inline-block;
+    margin: 0 30px;
+    font-weight: bold; 
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-shadow: #654164;
+}
+/* phrase d'intro */
+h1.title{
+    color: #30bca4;
+    text-align: center;
+    text-shadow: -0.03em -0.05em rgba(192, 30, 143, 0.616) ;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+/* compte a rebours */
+.mid_block{
+    /* display: inline-block; */
+    padding: 12px 30px 12px 30px;
+    margin-left: 15%;
+}
+.block_date{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin: 30px 30px 30px 300px;
+}
+span.clock{
+    border-radius: 0px;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px 10px 0px 10px;
+}
+span.day{
+    border-radius: 0px;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 10px 0px 10px;
+}
+/* boutons */
+a.bouton{
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: #30bca4;
+    font-weight: bold;
+    margin: 50px 50px 50px 50px; 
+    position: relative;
+}
+a.boutons{
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: 50px 50px 50px 500px; 
+    position: relative;
 }
 
 /* Ticket */
