@@ -24,10 +24,12 @@ nav{
     margin: 10px;
     text-align: center;
 }
+/* liste du menu */
 nav li{
     display: inline;
     list-style: none;
 }
+/* lien du Menu */
 nav a{
 	display:inline-block;
     margin: 0 30px;
@@ -35,6 +37,7 @@ nav a{
     color: white;
     text-decoration: none;
 }
+/* style bouton clicked */
 nav a:hover{
     text-shadow: #654164;
 }
@@ -47,27 +50,18 @@ h1.title{
     font-family: 'Dancing Script', cursive;
 }
 /* compte a rebours */
-.mid_block{
-    /* display: inline-block; */
-    padding: 12px 30px 12px 30px;
-    margin-left: 15%;
-}
 .block_date{
     display: flex;
     justify-content: center;
     margin-left: 15%;
-    margin: 30px 30px 30px 300px;
+    margin: 30px 30px 30px 30px;
 }
-span.clock{
-    border-radius: 0px;
-    border: none;
-    padding: 12px 30px 12px 30px;
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0px 10px 0px 10px;
+/* chaque block du compte a rebours */
+div.block1,div.block2,div.block3,div.block4{
+    display: grid;
+    position: relative;
 }
+/* block des jours */
 span.day{
     border-radius: 0px;
     border: none;
@@ -77,6 +71,19 @@ span.day{
     font-weight: bold;
     font-size: 15px;
     margin: 0px 10px 0px 10px;
+    
+}
+/* block des heures */
+span.clock{
+    border-radius: 0px;
+    border: none;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
 }
 /* boutons */
 a.bouton{
@@ -90,6 +97,7 @@ a.bouton{
     margin: 50px 50px 50px 50px; 
     position: relative;
 }
+/* autre bouton */
 a.boutons{
     display: inline-block;
     border-radius: 20px;
@@ -101,7 +109,9 @@ a.boutons{
     margin: 50px 50px 50px 500px; 
     position: relative;
 }
-
+/* #content{
+    display: inline-block;
+} */
 /* Ticket */
 
 .ticket_top {
