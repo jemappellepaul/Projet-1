@@ -1,5 +1,6 @@
 p,a,span,div,h1,h2{
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 ul.rs{
     list-style-type: none;
@@ -38,7 +39,6 @@ nav li{
 }
 /* lien du Menu */
 nav a{
-	display:inline-block;
     margin: 0 30px;
     font-weight: bold; 
     color: white;
@@ -47,6 +47,10 @@ nav a{
 /* style bouton clicked */
 nav a:hover{
     text-shadow: #654164;
+}
+nav img{
+    margin: 10px 0px 0px 10px;
+    color: white;
 }
 /* phrase d'intro */
 h1.title{
@@ -70,20 +74,16 @@ div.block1,div.block2,div.block3,div.block4{
 }
 /* block des jours */
 span.day{
-    border-radius: 0px;
-    border: none;
-    padding: 12px 30px 12px 30px;
+    padding: 12px 25px 12px 25px;
     color: white;
     background-color: pink;
     font-weight: bold;
     font-size: 15px;
-    margin: 0px 10px 0px 10px;
-    
+    margin: 80px 10px 0px 20px;
+    position: absolute;
 }
 /* block des heures */
 span.clock{
-    border-radius: 0px;
-    border: none;
     padding: 15px 15px 15px 15px;
     color: white;
     background-color: black;
@@ -113,7 +113,7 @@ a.boutons{
     color: white;
     background-color: black;
     font-weight: bold;
-    margin: 50px 50px 50px 500px; 
+    margin: 50px 50px 50px 650px; 
     position: relative;
 }
 /* #content{
@@ -318,7 +318,17 @@ a.boutons{
 .autor {
     margin: 0px 0px 20px 40px;
 }
+/* Affiche */
 
+.top_affiche {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
 /* Album / Footer */
 
 /* Album */
