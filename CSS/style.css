@@ -1,11 +1,12 @@
 p,a,span,div,h1,h2,li{
     font-family: 'Roboto', sans-serif;
-    /* color: white; */
 }
 ul.rs{
     list-style-type: none;
 }
-
+#blanc{
+    color: white;
+}
 img{
     size: 10px;
 }
@@ -125,27 +126,61 @@ a.boutons{
 div.title_cal{
     text-align: center;
 }
+/* Le menus des days */
 nav.days{
-    display: inline-block;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
 }
-/* ul.days{
+/* format des casse */
+ul.days{
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
-    list-style: none;r
-} */
+    list-style: none;
+}
+/* positions es blocks */
 li.days{
     float: left;
     position: relative;
 }
+/* liens entres les days */
 a.days{
-    padding: 20px 50px 20px 50px;
+    padding: 10px 100px 10px 100px;
     line-height: 100px;
     background-color: teal;
 }
+/* dates roses */
+div.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+/* horaires des concerts */
+aside{
+    display: grid;
+}
+/* jours des concerts */
+section{
+
+}
+/* un concert */
+article{
+
+}
+/* nom des concerts */
 h2.concert{
     color:#30bca4;
+}
+/* nom des artistes */
+span.artiste{
+
+}
+/* description des concerts */
+p.description{
+
 }
 /* Ticket */
 
