@@ -1,4 +1,4 @@
-p,a,span,div,h1,h2{
+p,a,span,div,h1,h2,li{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -12,6 +12,7 @@ img{
 
 body {
     margin: 0;
+    background-color: #02101c;
 }
 
 body.index{
@@ -27,28 +28,28 @@ li a {
 /* Index */
 
 /* Menu */
-nav{
+nav.index{
     padding: 0;
     margin: 10px;
     text-align: center;
 }
 /* liste du menu */
-nav li{
+nav.index li{
     display: inline;
     list-style: none;
 }
 /* lien du Menu */
-nav a{
+nav.index a{
     margin: 0 30px;
     font-weight: bold; 
     color: white;
     text-decoration: none;
 }
-/* style bouton clicked */
-nav a:hover{
-    text-shadow: #654164;
+/* style bouton survoler */
+nav.index a:hover{
+    color: #654164;
 }
-nav img{
+nav.index img{
     margin: 10px 0px 0px 10px;
     color: white;
 }
@@ -119,6 +120,33 @@ a.boutons{
 /* #content{
     display: inline-block;
 } */
+
+/* Calendrier */
+div.title_cal{
+    text-align: center;
+}
+nav.days{
+    display: inline-block;  
+}
+ul.days{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;r
+}
+li.days{
+    float: left;
+    position: relative;
+}
+a.days{
+    padding: 20px 50px 20px 50px;
+    line-height: 100px;
+    background-color: teal;
+}
+h2.concert{
+    color:#30bca4;
+}
 /* Ticket */
 
 .ticket_top {
