@@ -133,14 +133,20 @@ div.title_cal{
     align-items: center; 
 }
 
-.concerts {
+.date {
     display: flex;
     justify-content: center;
 }
 
+.concerts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 150px 20px 150px;
+}
+
 .contenant_concert {
     display: flex;
-    flex-direction: column;
 }
 
 .horaire {
