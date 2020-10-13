@@ -1,6 +1,6 @@
 p,a,span,div,h1,h2,li{
     font-family: 'Roboto', sans-serif;
-    color: white;
+    /* color: white; */
 }
 ul.rs{
     list-style-type: none;
@@ -128,13 +128,13 @@ div.title_cal{
 nav.days{
     display: inline-block;  
 }
-ul.days{
+/* ul.days{
     text-align: center;
     font-size: 30px;
     margin: 0;
     padding: 0;
     list-style: none;r
-}
+} */
 li.days{
     float: left;
     position: relative;
