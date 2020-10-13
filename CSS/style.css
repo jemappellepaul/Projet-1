@@ -6,6 +6,8 @@ ul.rs{
 }
 #blanc{
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 img{
     size: 10px;
@@ -127,22 +129,31 @@ div.title_cal{
     text-align: center;
 }
 /* Le menus des days */
-.button_calendrier{
+.button_calendrier {
     display: flex;
     justify-content: center;
     align-items: center; 
+    margin: 25px 10px 10px 10px;
 }
-
+.button_calendrier button{
+    padding: 5px 75px 5px 75px;
+    color: white;
+    background-color: #30bca4;
+    border: none;
+}
 .date {
     display: flex;
     justify-content: center;
 }
-
+span.pink{
+    color:#da1a90;
+    font-size: 15px;
+}
 .concerts {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 50px 150px 20px 150px;
+    margin: 50px 150px 20px 100px;
 }
 
 .contenant_concert {
@@ -151,6 +162,10 @@ div.title_cal{
 
 .horaire {
     display: flex;
+    margin: 10px 100px 10px 10px;
+    border-width:5px;
+    border-style: solid;
+    border-color:yellow;
 }
 
 .text_concert {
