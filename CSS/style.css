@@ -175,7 +175,7 @@ h2.concert{
 }
 
 .ticket_title {
-    margin: 50px 0px 30px 0px;
+    margin: 100px 0px 60px 0px;
 }
 
 .block_ticket {
@@ -216,7 +216,7 @@ h2.concert{
 
 .free {
     width: 250px;
-    margin: 70px 10px 60px 0px;
+    margin: 150px 10px 60px 0px;
     text-align: center;
     border-right-color: #3f3f3f;
     border-right-style: solid;
@@ -226,7 +226,7 @@ h2.concert{
 
 .silver {
     width: 250px;
-    margin: 70px 10px 60px 10px;
+    margin: 150px 10px 60px 10px;
     text-align: center;
     border-right-color: #3f3f3f;
     border-right-style: solid;
@@ -236,7 +236,7 @@ h2.concert{
 
 .gold {
     width: 250px;
-    margin: 70px 10px 60px 10px;
+    margin: 150px 10px 60px 10px;
     text-align: center;
     border-right-color: #3f3f3f;
     border-right-style: solid;
@@ -246,7 +246,7 @@ h2.concert{
 
 .vip {
     width: 250px;
-    margin: 70px 0px 60px 10px;
+    margin: 150px 0px 60px 10px;
     text-align: center;
     padding: 20px 0px 20px 0px;
 }
