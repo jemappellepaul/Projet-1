@@ -1,12 +1,7 @@
-/* p,a,span,div,h1,h2,li{
+p,a,span,div,h1,h2,li{
     font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-    color: white;
-} */
-=======
-    /* color: white; */
+
 }
->>>>>>> 2e17bf1937864fb91c0a396e0adee5d975281d9b
 ul.rs{
     list-style-type: none;
 }
@@ -138,13 +133,8 @@ nav.days{
     font-size: 30px;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
     list-style: none;
 }
-=======
-    list-style: none;r
-} */
->>>>>>> 2e17bf1937864fb91c0a396e0adee5d975281d9b
 li.days{
     float: left;
     position: relative;
@@ -179,7 +169,7 @@ h2.concert{
 }
 
 #pink {
-    color: #873a6a;
+    color: #da1a90;
     font-size: 30px;
     
 }
@@ -221,7 +211,7 @@ h2.concert{
 }
 
 .prix{
-    color: #873a6a;
+    color: #da1a90;
 }
 
 .free {
@@ -476,9 +466,15 @@ h2.concert{
     font-size: 19px;
 }
 
+.image_insta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .image_insta img {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
 }
 
 .newsletter {
@@ -548,9 +544,16 @@ ul.rs {
     padding: 5px 5px 5px 5px;
 }
 
-.footer_reseaux ul.rs li a:visited , .footer_reseaux ul.rs li a:hover {
+.footer_reseaux ul.rs li a:visited {
     text-decoration: none;
     color: white;
+}
+
+.footer_reseaux ul.rs li a:hover {
+    text-decoration: none;
+    background-color: #da1a90;
+    color: white;
+    border: none;
 }
 
 .footer_logo img {
