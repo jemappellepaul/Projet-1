@@ -75,29 +75,35 @@ h1.title{
     margin: 30px 30px 30px 30px;
 }
 /* chaque block du compte a rebours */
-div.block1,div.block2,div.block3,div.block4{
-    display: grid;
+div.block{
+    display: block;
     position: relative;
+    margin: 0 21px;
+    width: 110px;
 }
 /* block des jours */
 span.day{
-    padding: 12px 25px 12px 25px;
     color: white;
     background-color: pink;
     font-weight: bold;
     font-size: 15px;
-    margin: 80px 10px 0px 20px;
     position: absolute;
+    display: block;
+    text-align: center;
+    width: 30px;
+    left: 15px;
+    bottom: -8px;
+    padding: 5px 25px 5px 25px;
 }
 /* block des heures */
 span.clock{
-    padding: 15px 15px 15px 15px;
     color: white;
     background-color: black;
     font-weight: bold;
     font-size: 50px;
-    margin: 0px 20px 0px 20px;
     text-align: center;
+    display: block;
+    padding: 20px 0;
 }
 /* boutons */
 a.bouton{
@@ -141,8 +147,11 @@ div.title_cal{
 .button_calendrier button{
     padding: 5px 75px 5px 75px;
     color: white;
-    background-color: #30bca4;
+    background-color: #02101c;
     border: none;
+}
+.button_calendrier button:hover{
+    background-color: #30bca4;
 }
 .date {
     display: flex;
@@ -167,8 +176,9 @@ span.pink{
     display: flex;
     margin: 10px 100px 10px 10px;
     border-width:5px;
-    border-style: solid;
-    border-color:yellow;
+    border-image-slice: 1;
+    border-style: dashed;
+    border-image: linear-gradient(to right,rgb(255, 0, 221), rgb(16, 208, 233));
 }
 
 .text_concert {
