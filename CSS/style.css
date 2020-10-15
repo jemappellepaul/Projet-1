@@ -31,6 +31,15 @@ li a {
     text-decoration: none;
 }
 
+#white {
+    color: #e7e7e7;
+    font-size: 30px;
+}
+
+#pink {
+    color: #da1a90;
+    font-size: 30px;
+}
 /* Index */
 
 /* Menu */
@@ -138,51 +147,68 @@ a.boutons{
 } */
 
 /* Calendrier */
+
 div.title_cal{
     text-align: center;
 }
+
 /* Le menus des days */
+
 .button_calendrier {
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin: 25px 10px 10px 10px;
+    margin: 50px 10px 10px 10px;
 }
+
 .button_calendrier button{
-    padding: 5px 75px 5px 75px;
+    padding: 7px 80px 7px 80px;
     color: white;
     background-color: #02101c;
     border: none;
 }
-.button_calendrier button:hover{
+.button_calendrier button:hover {
     background-color: #30bca4;
 }
-.date {
-    display: flex;
-    justify-content: center;
-}
+
+
 span.pink{
     color:#da1a90;
     font-size: 15px;
 }
+
+.date {
+    display: flex;
+    justify-content: center;
+}
+
+.date p {
+    color: #da1a90;
+    font-size: 20px;
+}
+
 .concerts {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 50px 150px 20px 100px;
+    margin: 50px 310px 20px 340px;
 }
 
 .contenant_concert {
     display: flex;
+    align-items: center;
+
 }
 
 .horaire {
     display: flex;
-    margin: 10px 100px 10px 10px;
+    justify-content: center;
+    margin: 10px 30px 10px 10px;
     border-width:5px;
-    border-image-slice: 1;
     border-style: solid;
-    border-image: linear-gradient(to right,rgb(255, 0, 221), rgb(16, 208, 233));
+    align-items: center;
+    width: 320px;
+    height: 40px;
 }
 
 .text_concert {
@@ -193,6 +219,28 @@ span.pink{
 /* nom des concerts */
 h2.concert{
     color:#30bca4;
+}
+
+#day_2 {
+    position: absolute;
+    visibility: hidden;
+    top: 942px;
+}
+
+#day_1 {
+    visibility: unset;
+}
+
+#day_3 {
+    position: absolute;
+    visibility: hidden;
+    top: 942px;
+}
+
+#day_4 {
+    position: absolute;
+    visibility: hidden;
+    top: 942px;
 }
 
 /* Ticket */
@@ -211,16 +259,7 @@ h2.concert{
     color: #e7e7e7;
 }
 
-#white {
-    color: #e7e7e7;
-    font-size: 30px;
-}
 
-#pink {
-    color: #da1a90;
-    font-size: 30px;
-    
-}
 
 .ticket_title {
     margin: 70px 0px 20px 0px;
