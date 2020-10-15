@@ -3,6 +3,7 @@ p,a,span,div,h1,h2,li{
 }
 ul.rs{
     list-style-type: none;
+    color: white;
 }
 #blanc{
     color: white;
@@ -298,6 +299,48 @@ h2.concert{
     margin: 90px 0px 90px 10px;
     text-align: center;
     padding: 20px 0px 20px 0px;
+}
+
+/* Têtes d'affiches */
+
+.milieu_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 150px 20px 100px;
+}
+.contenant_page{
+    display: flex;
+}
+.affiche_article{
+    margin: 0px 10px;
+    width: 100%
+}
+img.image{
+    width: 260px;
+	height: 365px;
+}
+.slider{
+position: relative;
+width: 100%;
+}
+.slider .image{
+display: block;
+}
+.sur_image{
+    position: absolute;
+    top: 150px;
+    opacity: 0;
+    transition: .5s ease;
+    font-size: 13px;
+}
+.sur_image:hover{
+    opacity: 1;
+}
+.rs_affiche{
+    /* distance entre chaque */
+    list-style: none;
+    display: flex;
 }
 
 /* Blog */
