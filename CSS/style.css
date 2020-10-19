@@ -161,7 +161,7 @@ li a {
     .button_calendrier button{
         padding: 7px 80px 7px 80px;
         color: white;
-        background-color: #02101c;
+        background-color: #101c2a;
         border: none;
     }
     .button_calendrier button:hover {
@@ -269,7 +269,7 @@ li a {
         justify-content: center;
     }
 
-    .block_ticket button {
+    .block_ticket button, button.follow{
         border-radius: 20px;
         border: none;
         padding: 12px 30px 12px 30px;
@@ -279,7 +279,7 @@ li a {
         margin: 30px 0px 0px 0px; 
     }
 
-    .block_ticket button:hover {
+    .block_ticket button:hover,button.follow:hover {
         box-shadow: 0px 0px 10px 6px #30bca4;
     }
 
@@ -349,6 +349,7 @@ li a {
     }
     .contenant_page{
         display: flex;
+        margin: 0px 80px;
     }
     .affiche_article{
         margin: 0px 10px;
@@ -370,7 +371,7 @@ li a {
         top: 0px;
         opacity: 0;
         height: 100%;
-        width: 83%;
+        width: 95.5%;
         transition: 1s ease;
         font-size: 13px;
         background: linear-gradient(to bottom left, rgb(28, 224, 214), rgb(228, 124, 210));   
@@ -391,6 +392,14 @@ li a {
         margin: 10px 45px 0px -23px;
     }
     
+/* Follow */
+
+.body_follow{
+    background-image: url(../images/FKJ.jpg);
+    padding: 150px 0px 150px 150px;
+    background-size: cover;
+    background-position: center;
+}
 
 /* Blog */
 
