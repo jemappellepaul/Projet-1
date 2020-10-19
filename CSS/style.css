@@ -1,5 +1,5 @@
 p,a,span,div,h1,h2,li{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Myriad Pro', sans-serif;
 }
 ul.rs{
     list-style-type: none;
@@ -7,7 +7,7 @@ ul.rs{
 }
 #blanc{
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Myriad Pro', sans-serif;
     font-size: 15px;
 }
 img{
