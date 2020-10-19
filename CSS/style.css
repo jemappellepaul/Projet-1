@@ -142,6 +142,13 @@ li a {
         margin: 50px 50px 50px 650px; 
         position: relative;
     }
+    /* lecteur audio */
+    .music{
+        background-color: black;
+    }
+    audio{
+        margin-left: 35%;
+    }
 
 /* Calendrier */
 
