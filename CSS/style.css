@@ -203,6 +203,8 @@ li a {
         margin: 10px 30px 10px 10px;
         border-width:5px;
         border-style: solid;
+        border-image: linear-gradient(to left, rgb(28, 224, 214), rgb(219, 24, 187));
+        border-image-slice: 1;
         align-items: center;
         width: 320px;
         height: 40px;
