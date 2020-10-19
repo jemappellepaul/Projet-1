@@ -40,7 +40,6 @@ li a {
     color: #da1a90;
     font-size: 30px;
 }
-<<<<<<< HEAD
  /* Index */
 
     /* Menu */
@@ -143,113 +142,6 @@ li a {
         margin: 50px 50px 50px 650px; 
         position: relative;
     }
-=======
-/* Index */
-
-/* Menu */
-nav.index{
-    padding: 0;
-    margin: 0px 10px 10px 10px;
-    text-align: center;
-}
-
-nav.index ul {
-    margin: 0px 10px 10px 10px;
-}
-/* liste du menu */
-nav.index li{
-    display: inline;
-    list-style: none;
-}
-/* lien du Menu */
-nav.index a{
-    margin: 0 30px;
-    font-weight: bold; 
-    color: white;
-    text-decoration: none;
-}
-/* style bouton survoler */
-nav.index a:hover{
-    color: #654164;
-}
-nav.index img{
-    margin: 10px 0px 0px 10px;
-    color: white;
-}
-/* phrase d'intro */
-h1.title{
-    color: #30bca4;
-    text-align: center;
-    text-shadow: -0.03em -0.05em rgba(192, 30, 143, 0.616) ;
-    font-size: 100px;
-    font-family: 'Dancing Script', cursive;
-}
-/* compte a rebours */
-.block_date{
-    display: flex;
-    justify-content: center;
-    margin-left: 15%;
-    margin: 30px 30px 30px 30px;
-}
-/* chaque block du compte a rebours */
-div.block{
-    display: block;
-    position: relative;
-    margin: 0 21px;
-    width: 110px;
-}
-/* block des jours */
-span.day{
-    color: white;
-    background-color:  #da1a90;;
-    font-weight: bold;
-    font-size: 15px;
-    position: absolute;
-    display: block;
-    text-align: center;
-    width: 30px;
-    left: 15px;
-    bottom: -8px;
-    padding: 5px 25px 5px 25px;
-}
-/* block des heures */
-span.clock{
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    display: block;
-    padding: 20px 0;
-}
-/* boutons */
-a.bouton{
-    display: inline-block;
-    border-radius: 20px;
-    border: none;
-    padding: 12px 30px 12px 30px;
-    color: white;
-    background-color: #30bca4;
-    font-weight: bold;
-    margin: 50px 50px 50px 50px; 
-    position: relative;
-}
-/* autre bouton */
-a.boutons{
-    display: inline-block;
-    border-radius: 20px;
-    border: none;
-    padding: 12px 30px 12px 30px;
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    margin: 50px 50px 50px 650px; 
-    position: relative;
-}
-/* #content{
-    display: inline-block;
-} */
->>>>>>> e20a171f5b9cedc51fe0141a586f8394cb2bca8c
 
 /* Calendrier */
 
@@ -350,7 +242,6 @@ a.boutons{
 
 /* Ticket */
 
-<<<<<<< HEAD
     .ticket_top {
         display: flex;
         justify-content: center;
@@ -445,103 +336,6 @@ a.boutons{
         text-align: center;
         padding: 20px 0px 20px 0px;
     }
-=======
-.ticket_top {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 700px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.ticket_top span {
-    color: #e7e7e7;
-}
-
-
-
-.ticket_title {
-    margin: 70px 0px 20px 0px;
-}
-
-.block_ticket {
-    display: flex;
-    justify-content: center;
-}
-
-.block_ticket button {
-    border-radius: 20px;
-    border: none;
-    padding: 12px 30px 12px 30px;
-    color: white;
-    background-color: #30bca4;
-    font-weight: bold;
-}
-
-.block_ticket button:hover {
-    box-shadow: 0px 0px 10px 6px #30bca4;
-}
-
-.block_ticket span {
-    margin: 0px 0px 20px 0px;
-}
-
-.ticket_contener {
-    background-color: #101c2a;
-}
-
-.ticket_color {
-    color: #e7e7e7;
-    margin: 0px 0px 10px 0px;
-    font-weight: normal;
-}
-
-.prix{
-    color: #da1a90;
-    font-size: 40px;
-    font-weight: normal;
-    margin: 40px 0px 40px 0px;
-}
-
-.free {
-    width: 250px;
-    margin: 90px 10px 90px 0px;
-    text-align: center;
-    border-right-color: #3f3f3f;
-    border-right-style: solid;
-    border-right-width: 1px;
-    padding: 20px 15px 20px 0px;
-}
-
-.silver {
-    width: 250px;
-    margin: 90px 10px 90px 10px;
-    text-align: center;
-    border-right-color: #3f3f3f;
-    border-right-style: solid;
-    border-right-width: 1px;
-    padding: 20px 15px 20px 0px;
-}
-
-.gold {
-    width: 250px;
-    margin: 90px 10px 90px 10px;
-    text-align: center;
-    border-right-color: #3f3f3f;
-    border-right-style: solid;
-    border-right-width: 1px;
-    padding: 20px 15px 20px 0px;
-}
-
-.vip {
-    width: 250px;
-    margin: 90px 0px 90px 10px;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-}
->>>>>>> e20a171f5b9cedc51fe0141a586f8394cb2bca8c
 
 /* Têtes d'affiches */
 
