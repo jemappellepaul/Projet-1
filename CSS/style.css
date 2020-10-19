@@ -40,347 +40,355 @@ li a {
     color: #da1a90;
     font-size: 30px;
 }
-/* Index */
+ /* Index */
 
-/* Menu */
-nav.index{
-    padding: 0;
-    margin: 0px 10px 10px 10px;
-    text-align: center;
-}
+    /* Menu */
+    nav.index{
+        padding: 0;
+        margin: 0px 10px 10px 10px;
+        text-align: center;
+    }
 
-nav.index ul {
-    margin: 0px 10px 10px 10px;
-}
-/* liste du menu */
-nav.index li{
-    display: inline;
-    list-style: none;
-}
-/* lien du Menu */
-nav.index a{
-    margin: 0 30px;
-    font-weight: bold; 
-    color: white;
-    text-decoration: none;
-}
-/* style bouton survoler */
-nav.index a:hover{
-    color: #654164;
-}
-nav.index img{
-    margin: 10px 0px 0px 10px;
-    color: white;
-}
-/* phrase d'intro */
-h1.title{
-    color: #30bca4;
-    text-align: center;
-    text-shadow: -0.03em -0.05em rgba(192, 30, 143, 0.616) ;
-    font-size: 100px;
-    font-family: 'Dancing Script', cursive;
-}
-/* compte a rebours */
-.block_date{
-    display: flex;
-    justify-content: center;
-    margin-left: 15%;
-    margin: 30px 30px 30px 30px;
-}
-/* chaque block du compte a rebours */
-div.block{
-    display: block;
-    position: relative;
-    margin: 0 21px;
-    width: 110px;
-}
-/* block des jours */
-span.day{
-    color: white;
-    background-color: pink;
-    font-weight: bold;
-    font-size: 15px;
-    position: absolute;
-    display: block;
-    text-align: center;
-    width: 30px;
-    left: 15px;
-    bottom: -8px;
-    padding: 5px 25px 5px 25px;
-}
-/* block des heures */
-span.clock{
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    display: block;
-    padding: 20px 0;
-}
-/* boutons */
-a.bouton{
-    display: inline-block;
-    border-radius: 20px;
-    border: none;
-    padding: 12px 30px 12px 30px;
-    color: white;
-    background-color: #30bca4;
-    font-weight: bold;
-    margin: 50px 50px 50px 50px; 
-    position: relative;
-}
-/* autre bouton */
-a.boutons{
-    display: inline-block;
-    border-radius: 20px;
-    border: none;
-    padding: 12px 30px 12px 30px;
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    margin: 50px 50px 50px 650px; 
-    position: relative;
-}
-/* #content{
-    display: inline-block;
-} */
+    nav.index ul {
+        margin: 0px 10px 10px 10px;
+    }
+    /* liste du menu */
+    nav.index li{
+        display: inline;
+        list-style: none;
+    }
+    /* lien du Menu */
+    nav.index a{
+        margin: 0 30px;
+        font-weight: bold; 
+        color: white;
+        text-decoration: none;
+    }
+    /* style bouton survoler */
+    nav.index a:hover{
+        color: #654164;
+    }
+    nav.index img{
+        margin: 10px 0px 0px 10px;
+        color: white;
+    }
+    /* phrase d'intro */
+    h1.title{
+        color: #30bca4;
+        text-align: center;
+        text-shadow: -0.03em -0.05em rgba(192, 30, 143, 0.616) ;
+        font-size: 100px;
+        font-family: 'Dancing Script', cursive;
+    }
+    /* compte a rebours */
+    .block_date{
+        display: flex;
+        justify-content: center;
+        margin-left: 15%;
+        margin: 30px 30px 30px 30px;
+    }
+    /* chaque block du compte a rebours */
+    div.block{
+        display: block;
+        position: relative;
+        margin: 0 21px;
+        width: 110px;
+    }
+    /* block des jours */
+    span.day{
+        color: white;
+        background-color: pink;
+        font-weight: bold;
+        font-size: 15px;
+        position: absolute;
+        display: block;
+        text-align: center;
+        width: 30px;
+        left: 15px;
+        bottom: -8px;
+        padding: 5px 25px 5px 25px;
+    }
+    /* block des heures */
+    span.clock{
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        display: block;
+        padding: 20px 0;
+    }
+    /* boutons */
+    a.bouton{
+        display: inline-block;
+        border-radius: 20px;
+        border: none;
+        padding: 12px 30px 12px 30px;
+        color: white;
+        background-color: #30bca4;
+        font-weight: bold;
+        margin: 50px 50px 50px 50px; 
+        position: relative;
+    }
+    /* autre bouton */
+    a.boutons{
+        display: inline-block;
+        border-radius: 20px;
+        border: none;
+        padding: 12px 30px 12px 30px;
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        margin: 50px 50px 50px 650px; 
+        position: relative;
+    }
 
 /* Calendrier */
 
-div.title_cal{
-    text-align: center;
-}
+    div.title_cal{
+        text-align: center;
+    }
 
-/* Le menus des days */
+    /* Le menus des days */
 
-.button_calendrier {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin: 50px 10px 10px 10px;
-}
+    .button_calendrier {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 50px 10px 10px 10px;
+    }
 
-.button_calendrier button{
-    padding: 7px 80px 7px 80px;
-    color: white;
-    background-color: #02101c;
-    border: none;
-}
-.button_calendrier button:hover {
-    background-color: #30bca4;
-}
+    .button_calendrier button{
+        padding: 7px 80px 7px 80px;
+        color: white;
+        background-color: #02101c;
+        border: none;
+    }
+    .button_calendrier button:hover {
+        background-color: #30bca4;
+    }
 
 
-span.pink{
-    color:#da1a90;
-    font-size: 15px;
-}
+    span.pink{
+        color:#da1a90;
+        font-size: 15px;
+    }
 
-.date {
-    display: flex;
-    justify-content: center;
-}
+    .date {
+        display: flex;
+        justify-content: center;
+    }
 
-.date p {
-    color: #da1a90;
-    font-size: 20px;
-}
+    .date p {
+        color: #da1a90;
+        font-size: 20px;
+    }
 
-.concerts {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 50px 310px 20px 340px;
-}
+    .concerts {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px 310px 20px 340px;
+    }
 
-.contenant_concert {
-    display: flex;
-    align-items: center;
+    .contenant_concert {
+        display: flex;
+        align-items: center;
 
-}
+    }
 
-.horaire {
-    display: flex;
-    justify-content: center;
-    margin: 10px 30px 10px 10px;
-    border-width:5px;
-    border-style: solid;
-    align-items: center;
-    width: 320px;
-    height: 40px;
-}
+    .horaire {
+        display: flex;
+        justify-content: center;
+        margin: 10px 30px 10px 10px;
+        border-width:5px;
+        border-style: solid;
+        align-items: center;
+        width: 320px;
+        height: 40px;
+    }
 
-.text_concert {
-    display: flex;
-    flex-direction: column;
-}
+    .text_concert {
+        display: flex;
+        flex-direction: column;
+    }
 
-/* nom des concerts */
-h2.concert{
-    color:#30bca4;
-}
+    /* nom des concerts */
+    h2.concert{
+        color:#30bca4;
+    }
 
-#day_2 {
-    position: absolute;
-    visibility: hidden;
-    top: 942px;
-}
+    #day_2 {
+        position: absolute;
+        visibility: hidden;
+        top: 942px;
+    }
 
-#day_1 {
-    visibility: unset;
-}
+    #day_1 {
+        visibility: unset;
+    }
 
-#day_3 {
-    position: absolute;
-    visibility: hidden;
-    top: 942px;
-}
+    #day_3 {
+        position: absolute;
+        visibility: hidden;
+        top: 942px;
+    }
 
-#day_4 {
-    position: absolute;
-    visibility: hidden;
-    top: 942px;
-}
+    #day_4 {
+        position: absolute;
+        visibility: hidden;
+        top: 942px;
+    }
 
 /* Ticket */
 
-.ticket_top {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 700px;
-    margin: 0 auto;
-    text-align: center;
-}
+    .ticket_top {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-.ticket_top span {
-    color: #e7e7e7;
-}
+    .ticket_top span {
+        color: #e7e7e7;
+    }
 
 
 
-.ticket_title {
-    margin: 70px 0px 20px 0px;
-}
+    .ticket_title {
+        margin: 70px 0px 20px 0px;
+    }
 
-.block_ticket {
-    display: flex;
-    justify-content: center;
-}
+    .block_ticket {
+        display: flex;
+        justify-content: center;
+    }
 
-.block_ticket button {
-    border-radius: 20px;
-    border: none;
-    padding: 12px 30px 12px 30px;
-    color: white;
-    background-color: #30bca4;
-    font-weight: bold;
-    margin: 30px 0px 0px 0px; 
-}
+    .block_ticket button {
+        border-radius: 20px;
+        border: none;
+        padding: 12px 30px 12px 30px;
+        color: white;
+        background-color: #30bca4;
+        font-weight: bold;
+        margin: 30px 0px 0px 0px; 
+    }
 
-.block_ticket button:hover {
-    box-shadow: 0px 0px 10px 6px #30bca4;
-}
+    .block_ticket button:hover {
+        box-shadow: 0px 0px 10px 6px #30bca4;
+    }
 
-.block_ticket span {
-    margin: 0px 0px 20px 0px;
-}
+    .block_ticket span {
+        margin: 0px 0px 20px 0px;
+    }
 
-.ticket_contener {
-    background-color: #101c2a;
-}
+    .ticket_contener {
+        background-color: #101c2a;
+    }
 
-.ticket_color {
-    color: #e7e7e7;
-    margin: 0px 0px 10px 0px;
-}
+    .ticket_color {
+        color: #e7e7e7;
+        margin: 0px 0px 10px 0px;
+    }
 
-.prix{
-    color: #da1a90;
-    font-size: 50px;
-    font-weight: normal;
-}
+    .prix{
+        color: #da1a90;
+        font-size: 50px;
+        font-weight: normal;
+    }
 
-.free {
-    width: 250px;
-    margin: 90px 10px 90px 0px;
-    text-align: center;
-    border-right-color: #3f3f3f;
-    border-right-style: solid;
-    border-right-width: 1px;
-    padding: 20px 15px 20px 0px;
-}
+    .free {
+        width: 250px;
+        margin: 90px 10px 90px 0px;
+        text-align: center;
+        border-right-color: #3f3f3f;
+        border-right-style: solid;
+        border-right-width: 1px;
+        padding: 20px 15px 20px 0px;
+    }
 
-.silver {
-    width: 250px;
-    margin: 90px 10px 90px 10px;
-    text-align: center;
-    border-right-color: #3f3f3f;
-    border-right-style: solid;
-    border-right-width: 1px;
-    padding: 20px 15px 20px 0px;
-}
+    .silver {
+        width: 250px;
+        margin: 90px 10px 90px 10px;
+        text-align: center;
+        border-right-color: #3f3f3f;
+        border-right-style: solid;
+        border-right-width: 1px;
+        padding: 20px 15px 20px 0px;
+    }
 
-.gold {
-    width: 250px;
-    margin: 90px 10px 90px 10px;
-    text-align: center;
-    border-right-color: #3f3f3f;
-    border-right-style: solid;
-    border-right-width: 1px;
-    padding: 20px 15px 20px 0px;
-}
+    .gold {
+        width: 250px;
+        margin: 90px 10px 90px 10px;
+        text-align: center;
+        border-right-color: #3f3f3f;
+        border-right-style: solid;
+        border-right-width: 1px;
+        padding: 20px 15px 20px 0px;
+    }
 
-.vip {
-    width: 250px;
-    margin: 90px 0px 90px 10px;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-}
+    .vip {
+        width: 250px;
+        margin: 90px 0px 90px 10px;
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+    }
 
 /* Têtes d'affiches */
 
-.milieu_page{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 50px 150px 20px 100px;
-}
-.contenant_page{
-    display: flex;
-}
-.affiche_article{
-    margin: 0px 10px;
-    width: 100%
-}
-img.image{
-    width: 260px;
-	height: 365px;
-}
-.slider{
-position: relative;
-width: 100%;
-}
-.slider .image{
-display: block;
-}
-.sur_image{
-    position: absolute;
-    top: 150px;
-    opacity: 0;
-    transition: .5s ease;
-    font-size: 13px;
-}
-.sur_image:hover{
-    opacity: 1;
-}
-.rs_affiche{
-    /* distance entre chaque */
-    list-style: none;
-    display: flex;
-}
+    .milieu_page{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px 150px 20px 100px;
+    }
+    .contenant_page{
+        display: flex;
+    }
+    .affiche_article{
+        margin: 0px 10px;
+        width: 100%
+    }
+    img.image{
+        width: 260px;
+        height: 365px;
+    }
+    .slider{
+    position: relative;
+    width: 100%;
+    }
+    .slider .image{
+    display: block;
+    }
+    .sur_image{
+        position: absolute;
+        top: 0px;
+        opacity: 0;
+        height: 100%;
+        width: 83%;
+        transition: 1s ease;
+        font-size: 13px;
+        background: linear-gradient(to bottom left, rgb(28, 224, 214), rgb(228, 124, 210));   
+    }
+    .sur_image p,.sur_image span{
+        margin: 194px 0px 15px 0px;
+    }
+    .sur_image:hover{
+        opacity: 0.5;
+    }
+    .rs_affiche{
+        /* distance entre chaque */
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .rs_affiche i{
+        margin: 10px 45px 0px -23px;
+    }
+    
 
 /* Blog */
 
