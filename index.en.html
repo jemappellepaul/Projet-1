@@ -1,79 +1,566 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS\style.css"></link>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="player.js"></link>
+    <link rel="stylesheet" href="CSS\style.css">
+    </link>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script.js"></script>
     <!-- titre de l'onglet -->
-    <title>Festival</title>
+    <title>Bonsoir &#128513</title>
 </head>
 <!-- Corps HTML -->
+
 <body>
-    <!-- header -->
-    <header>
-        <!-- Logo -->
-        <a href="index.html" class="logo">
-        <img src="source" alt="Logo" width="" height="" />
-        </a>
+    <div class="index">
+
+
+        <!-- header -->
+        <header>
             <!-- Menu-->
-            <nav>
+            <nav class="index">
                 <ul>
+                    <!-- logo -->
+                    <a href="index.html">
+                        <img src="images\logo.png" width="2%" height="2%" />
+                    </a>
                     <li>
                         <!-- premier boutton -->
-                        <a href="index.en.html" title="Home">Home</a>
+                        <a href="index.html" title="Home">HOME</a>
                     </li>
                     <li>
                         <!-- second boutton -->
-                        <a href="calendrier.en.html" title="Calendrier">Event</a>
+                        <a href="calendrier.html" title="Calendrier">EVENT</a>
                     </li>
                     <li>
                         <!-- troisième boutton -->
-                        <a href="ticket.en.html" title="Ticket">Tickets</a>
+                        <a href="ticket.html" title="Ticket">TICKET</a>
                     </li>
                     <li>
                         <!-- quatrième boutton -->
-                        <a href="blog.en.html" title="Blog">Blog</a>
+                        <a href="blog.html" title="Blog">BLOG</a>
                     </li>
                     <li>
                         <!-- quatrième boutton -->
-                        <a href="affiche.en.html" title="affiche">Affiche</a>
+                        <a href="affiche.html" title="affiche">GALLERIES</a>
                     </li>
                     <li>
                         <!-- dernier boutton -->
-                        <a href="Album.en.html" title="Album">Album</a>
+                        <a href="Album.html" title="Album">ALBUM</a>
                     </li>
+                    <!-- Image de la loupe -->
+                    <a target="_blank" href="#" title="loupe">
+                        <i class="fa fa-search" style="margin: 0px -12px 0px 45px;"></i></a>
+                    <!-- image du panier -->
+                    <a target="_blank" href="#" title="Panier">
+                        <i class="fa fa-shopping-bag" style="margin: -22px;"></i></a>
                 </ul>
             </nav>
-    </header>
-        <div class="mid_block">
-            <!-- phrase d'introduction -->
-        <h1 class="title">Festival feel the beat</h1>
-        <!-- "Compte a rebourd" -->
-        <span class="clock">15d  24h 17m 30s</span>
-        <!-- boutton pour des détails -->
-        <a href="#" title="details">More details</a>
-        <!-- boutton pour les billets -->
-        <a href="#" title="Achat">Tickets</a>
+        </header>
+        <!-- phrase d'introduction -->
+        <h1 class="title">Festival Feel The <br> Beat</h1>
+        <div class="block_date">
+            <!-- "Compte a rebours" -->
+            <div class="block">
+                <span class="clock">15</span>
+                <span class="day">Day</span></div>
+            <div class="block">
+                <span class="clock">24</span>
+                <span class="day">Hour</span></div>
+            <div class="block">
+                <span class="clock">17</span>
+                <span class="day">Min</span></div>
+            <div class="block">
+                <span class="clock">30</span>
+                <span class="day">Sec</span>
+            </div>
         </div>
-        <!-- lecteur de musique -->
-            <div id="project-wrapper">
-                <div id="project-container">
-                    <div id="overlay"></div>
-                    <div id="content">
-                        <h2>Throne</h2>
-                        <h3>Bring Me The Horizon</h3>
-                        <input type="range" value="30" />
-                        <div id="controls">
-                            <div class="column"><i class="fa fa-refresh" aria-hidden="true"></i></div>
-                            <div class="column"><i class="fa fa-step-backward" aria-hidden="true"></i></div>
-                            <div class="column"><i class="fa fa-play play-btn fa-fw" aria-hidden="true"></i></div>
-                            <div class="column"><i class="fa fa-step-forward" aria-hidden="true"></i></div>
-                            <div class="column active"><i class="fa fa-random" aria-hidden="true"></i></div>
-                        </div>
+        <!-- boutton pour des détails -->
+        <a class="boutons" href="#" title="details">VIEW DETAIL</a>
+        <!-- boutton pour les billets -->
+        <a class="bouton" href="ticket.html" title="Achat">BUY TICKET</a>
+        <!-- Lecteur de musique -->
+    </div>
+    <!-- Page calendrier -->
+    <div class="ticket_contener" id="blanc">
+        <!-- titre de la page visible -->
+        <div class="ticket_top">
+            <div class="ticket_title">
+                <!-- titre de la page -->
+                <span id="white">UPCOMMING </span>
+                <span id="pink">EVENT</span>
+            </div>
+            <!-- phrase d'intro -->
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deserunt sunt exercitationem alias
+                voluptas laudantium ea! Suscipit soluta eum ratione ad blanditiis ipsam</span>
+        </div>
+        <!-- jour du concert -->
+        <div class="button_calendrier">
+            <button onclick="calendrier_1()">DAY 1</button>
+            <button onclick="calendrier_2()">DAY 2</button>
+            <button onclick="calendrier_3()">DAY 3</button>
+            <button onclick="calendrier_4()">DAY 4</button>
+        </div>
+
+
+        <!-- Premier jour -->
+
+        <!-- date du concert -->
+        <div id="day_1">
+            <div class="date">
+                <p>26 JUL 2016</p>
+            </div>
+            <div class="concerts">
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">18:20 - 19:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
                     </div>
                 </div>
-            </div>            
+
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">19:45 - 21:00</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">21:00 - 23:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+            </div>.
+        </div>
+
+        <!-- Deuxième jour -->
+
+        <!-- date du concert -->
+        <div id="day_2">
+            <div class="date">
+                <p>27 JUI 2016</p>
+            </div>
+            <div class="concerts">
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">18:20 - 19:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">19:45 - 21:00</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">21:00 - 23:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="day_3">
+            <div class="date">
+                <p>28 JUI 2016</p>
+            </div>
+            <div class="concerts">
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">18:20 - 19:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">19:45 - 21:00</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">21:00 - 23:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="day_4">
+            <div class="date">
+                <p>29 JUI 2016</p>
+            </div>
+            <div class="concerts">
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">18:20 - 19:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">19:45 - 21:00</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+                <div class="contenant_concert">
+                    <div class="horaire">
+                        <span class="pink">21:00 - 23:45</span>
+                    </div>
+                    <div class="text_concert">
+                        <!-- nom du concert -->
+                        <h2 class="concert">Concert name</h2>
+                        <!-- nom de l'artiste -->
+                        <span class="artiste"><i class="fa fa-user"></i>Name of artist or group</span>
+                        <!-- description du concert -->
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sapiente dolor pariatur similique illo excepturi tenetur corrupti ducimus nesciunt,
+                            ad quos neque mollitia vero laudantium, quidem expedita distinctio esse iusto deleniti?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Ticket -->
+        <div class="ticket_contener">
+            <div class="ticket_top">
+                <div class="ticket_title">
+                    <!-- titre de la page -->
+                    <span id="white">BUY </span>
+                    <span id="pink">TICKET</span>
+                </div>
+                <!-- phrase d'intro -->
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deserunt sunt exercitationem
+                    alias
+                    voluptas laudantium ea! Suscipit soluta eum ratione ad blanditiis ipsam</span>
+            </div>
+            <div class="block_ticket">
+                <div class="free">
+                    <!-- premier statut -->
+                    <h1 class="ticket_color">FREE</h1>
+                    <!-- descriptif du premier statut -->
+                    <span class="ticket_color">Lorem ipsum simply dummy text of the printing and</span>
+                    <!-- prix -->
+                    <h1 class="prix">$00</h1>
+                    <!-- bouton achat -->
+                    <button>BUY TICKET</button>
+                </div>
+                <div class="silver">
+                    <!-- premier statut -->
+                    <h1 class="ticket_color">SILVER</h1>
+                    <!-- descriptif du premier statut -->
+                    <span class="ticket_color">Lorem ipsum simply dummy text of the printing and</span>
+                    <!-- prix -->
+                    <h1 class="prix">$39</h1>
+                    <!-- bouton achat -->
+                    <button>BUY TICKET</button>
+                </div>
+                <div class="gold">
+                    <!-- premier statut -->
+                    <h1 class="ticket_color">GOLD</h1>
+                    <!-- descriptif du premier statut -->
+                    <span class="ticket_color">Lorem ipsum simply dummy text of the printing and</span>
+                    <!-- prix -->
+                    <h1 class="prix">$59</h1>
+                    <!-- bouton achat -->
+                    <button>BUY TICKET</button>
+                </div>
+                <div class="vip">
+                    <!-- premier statut -->
+                    <h1 class="ticket_color">VIP</h1>
+                    <!-- descriptif du premier statut -->
+                    <span class="ticket_color">Lorem ipsum simply dummy text of the printing and</span>
+                    <!-- prix -->
+                    <h1 class="prix">$99</h1>
+                    <!-- bouton achat -->
+                    <button>BUY TICKET</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Page Blog -->
+        <div class="body_blog">
+            <div class="top_blog">
+                <div class="blog_title">
+                    <!-- titre de la page -->
+                    <span id="white">LASTEST</span>
+                    <span id="pink">BLOG</span>
+                </div>
+                <!-- texte d'introduction -->
+                <span class="text_title_blog">Here the last info of your festival</span>
+            </div>
+            <div class="block_blog">
+                <div class="blog_1">
+                    <!-- titre de la publication -->
+                    <h2>Info Title </h2>
+                    <!-- logo calendrier -->
+                    <!-- date de la publcation -->
+                    <span><i class="fa fa-calendar"></i>Publication date</span>
+                    <!-- logo auteur -->
+                    <!-- Autor of publication -->
+                    <span class="autor"><i class="fa fa-user"></i>Author of the publication</span>
+                    <!-- Publication -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quia quae, corporis voluptas illum ea quam rerum quasi quidem,
+                        quaerat nam odio similique cumque cum quos, blanditiis a vero reiciendis eum?</p>
+                </div>
+                <div class="blog_2">
+                    <!-- titre de la publication -->
+                    <h2>Info Title </h2>
+                    <!-- logo calendrier -->
+                    <!-- date de la publcation -->
+                    <span><i class="fa fa-calendar"></i>Publication date</span>
+                    <!-- logo auteur -->
+                    <!-- Autor of publication -->
+                    <span class="autor"><i class="fa fa-user"></i>Author of the publication</span>
+                    <!-- Publication -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quia quae, corporis voluptas illum ea quam rerum quasi quidem,
+                        quaerat nam odio similique cumque cum quos, blanditiis a vero reiciendis eum?</p>
+                </div>
+                <div class="blog_3">
+                    <!-- titre de la publication -->
+                    <h2>Info Title </h2>
+                    <!-- logo calendrier -->
+                    <!-- date de la publcation -->
+                    <span><i class="fa fa-calendar"></i>Publication date</span>
+                    <!-- logo auteur -->
+                    <!-- Autor of publication -->
+                    <span class="autor"><i class="fa fa-user"></i>Author of the publication</span>
+                    <!-- Publication -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quia quae, corporis voluptas illum ea quam rerum quasi quidem,
+                        quaerat nam odio similique cumque cum quos, blanditiis a vero reiciendis eum?</p>
+                </div>
+                <div class="blog_4">
+                    <!-- titre de la publication -->
+                    <h2>Info Title </h2>
+                    <!-- logo calendrier -->
+                    <!-- date de la publcation -->
+                    <span><i class="fa fa-calendar"></i>Publication date</span>
+                    <!-- logo auteur -->
+                    <!-- Autor of publication -->
+                    <span class="autor"><i class="fa fa-user"></i>Author of the publication</span>
+                    <!-- Publication -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quia quae, corporis voluptas illum ea quam rerum quasi quidem,
+                        quaerat nam odio similique cumque cum quos, blanditiis a vero reiciendis eum?</p>
+                </div>
+            </div>
+        </div>
+        <div class="album">
+            <div class="colum">
+                <img class="image_1" src="Images/photo_album_6.jpg" alt="">
+                <img class="image_2" src="Images/photo_album_5.jpg" alt="">
+                <img class="image_1" src="Images/photo_album_3.jpg" alt="">
+            </div>
+            <div class="colum_2">
+                <img class="image_3" src="Images/FKJr.jpg" alt="">
+                <img class="image_4" src="Images/photo_album_1.jpg" alt="">
+            </div>
+            <div class="colum_3">
+                <div class="colum_4">
+                    <img class="image_5" src="Images/photo_album_7.jpg" alt="">
+                    <img class="image_5" src="Images/photo_album_2.jpg" alt="">
+                </div>
+                <img class="image_6" src="Images/photo_album_4.jpg" alt="">
+            </div>
+        </div>
+        <!-- Top footer -->
+        <div class="block_top_footer">
+            <div class="contact">
+                <h2>CONTACT ME</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, officia necessitatibus. Nesciunt est
+                    mollitia corporis assumenda adipisci aliquid sed libero eum eligendi nam, rerum enim, dolorum quam
+                    ducimus
+                    nostrum! Delectus. </p>
+            </div>
+            <div class="twitter">
+                <!-- Titre -->
+                <h2>TWITTER FEED</h2>
+                <!-- Premier twitte -->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <li>
+                    <a target="_blank" href="https://twitter.com" title="Twitter">
+                        <i class="fa fa-twitter"></i>
+                        <span>Posted on 17 Mai</span></a>
+                </li>
+                <!-- Deuxieme Twitte -->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <li>
+                    <a target="_blank" href="https://twitter.com" title="Twitter">
+                        <i class="fa fa-twitter"></i>
+                        <span>PosteD on 17 Mai</span>
+                    </a>
+                </li>
+                <!-- Troisième Twitte -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <li>
+                    <a target="_blank" href="https://twitter.com" title="Twitter">
+                        <i class="fa fa-twitter"></i>
+                        <span>Posted on 17 Mai</span>
+                    </a>
+                </li>
+            </div>
+            <div class="instagram">
+                <h2>INSTAGRAM</h2>
+                <div class="image_insta">
+                    <img src="Images/Darius.jpg" alt="">
+                    <img src="Images/FKJr.jpg" alt="">
+                    <img src="Images/Paulk.jpg" alt="">
+                    <img src="Images/FKJr.jpg" alt="">
+                    <img src="Images/Darius.jpg" alt="">
+                    <img src="Images/Darius.jpg" alt="">
+                </div>
+            </div>
+            <div class="newsletter">
+                <h2>NEWSLETTER</h2>
+                <p>Connect with me and feelinf hard</p>
+                <input type="text" placeholder=" Enter your mail">
+                <button>SUBSCRIBE ME</button>
+            </div>
+        </div>
 </body>
+<!-- Bot Footer -->
+<footer>
+    <div class="block_bot_footer">
+        <div class="footer_logo">
+            <img src="Images/logo.png" alt="">
+        </div>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>© 2020 Copyright by Alex & jemappellepaul. All right reserved.</p>
+        </div>
+        <div class="footer_reseaux">
+            <!-- Réseaux sociaux -->
+            <ul class="rs">
+                <li>
+                    <a target="_blank" href="https://facebook.com" title="Facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com" title="Twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://instagram.com" title="Instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com" title="Github">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 </html>
