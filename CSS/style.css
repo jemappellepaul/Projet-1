@@ -152,6 +152,11 @@ li a {
 
 /* Calendrier */
 
+    .img_son {
+        width: 80px;
+        height: 30px;
+    }
+   
     div.title_cal{
         text-align: center;
     }
@@ -249,6 +254,25 @@ li a {
         top: 942px;
     }
 
+    .bouton_def {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bouton_def button {
+        background-color: #02101c;
+        color: white;
+        font-weight: bold;
+        padding: 5px 7px 5px 7px;
+        margin: 0px 10px 80px 0px;
+        border: white 1px;
+        border-style: solid;
+    }
+
+    .bouton_def button:hover {
+        border-style: none;
+        background-color: #30bca4;
+    }
 /* Ticket */
 
     .ticket_top {
