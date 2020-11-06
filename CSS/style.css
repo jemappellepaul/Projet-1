@@ -10,9 +10,6 @@ ul.rs{
     font-family: 'Myriad Pro', sans-serif;
     font-size: 15px;
 }
-img{
-    size: 10px;
-}
 
 body {
     margin: 0;
@@ -243,6 +240,10 @@ li a {
     .text_concert {
         display: flex;
         flex-direction: column;
+    }
+
+    p.description, .artiste, .affiche_article{
+        color: white;
     }
 
     /* nom des concerts */
