@@ -253,7 +253,7 @@ li a {
     #day_2 {
         position: absolute;
         visibility: hidden;
-        top: 942px;
+        top: 977px;
     }
 
     #day_1 {
@@ -263,13 +263,13 @@ li a {
     #day_3 {
         position: absolute;
         visibility: hidden;
-        top: 942px;
+        top: 977px;
     }
 
     #day_4 {
         position: absolute;
         visibility: hidden;
-        top: 942px;
+        top: 977px;
     }
 
     .bouton_def {
@@ -422,11 +422,11 @@ li a {
         height: 100%;
         width: 95.5%;
         transition: 1s ease;
-        font-size: 13px;
+        font-size: 20px;
         background: linear-gradient(to bottom left, rgb(28, 224, 214), rgb(228, 124, 210));   
     }
     .sur_image p,.sur_image span{
-        margin: 194px 0px 15px 0px;
+        margin: 40px 0px 15px 0px;
     }
     .sur_image:hover{
         opacity: 0.5;
