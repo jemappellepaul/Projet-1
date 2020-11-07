@@ -107,16 +107,15 @@ li a {
     /* block des jours */
     span.day{
         color: white;
-        background-color: #da1a90;
-        font-weight: bold;
-        font-size: 15px;
-        position: absolute;
-        display: block;
-        text-align: center;
-        width: 10px;
-        left: 6px;
-        bottom: -12px;
-        padding: 5px 25px 5px 25px;
+    background-color: #da1a90;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    left: 6px;
+    bottom: -12px;
+    padding: 5px 25px 5px 14px;
     }
     /* block des heures */
     span.clock{
@@ -124,7 +123,7 @@ li a {
         background-color: rgba(0, 0, 0, 0.75);;
         font-size: 40px;
         text-align: center;
-        display: block;
+        display: inline-block;
         padding: 5px 0px 0px 0px;
         width: 70px;
         height: 60px;
