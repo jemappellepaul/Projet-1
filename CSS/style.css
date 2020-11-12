@@ -694,6 +694,7 @@ li a {
     width: 200px;
     height: 40px;
     background-color: #292929;
+    color: white;
     border: none;
     margin-bottom: 30px;
 }
@@ -777,10 +778,10 @@ ul.rs {
         position: absolute;
         top: 0px;
         opacity: 0;
-        height: 76.9%;
+        height: 100%;
         width: 100%;
         transition: 1s ease;
-        font-size: 13px;
+        font-size: 14px;
         background: linear-gradient(to bottom left, rgb(28, 224, 214), rgb(228, 124, 210));
     }
     .slider{
