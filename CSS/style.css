@@ -204,11 +204,12 @@ li a {
     .button_calendrier button:hover {
         background-color: #30bca4;
     }
-
+    .horaire span.pink {
+        font-size: 15px;
+    }
 
     span.pink{
         color:#da1a90;
-        font-size: 15px;
     }
 
     .date {
@@ -316,9 +317,9 @@ li a {
         text-align: center;
     }
 
-    .ticket_top span {
+    /* .ticket_top span {
         color: #e7e7e7;
-    }
+    } */
 
 
 
