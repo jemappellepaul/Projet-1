@@ -431,7 +431,7 @@ li a {
         top: 0px;
         opacity: 0;
         height: 100%;
-        width: 95.5%;
+        width: 71%;
         transition: 1s ease;
         font-size: 20px;
         background: linear-gradient(to bottom left, rgb(28, 224, 214), rgb(228, 124, 210));   
@@ -801,7 +801,7 @@ ul.rs {
         margin: 10px;
     }
     img.image{
-        width: 130px;
+        width: 15px;
         height: 182.5px;
     }
     .sur_image p,.sur_image span{
