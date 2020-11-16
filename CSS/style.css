@@ -167,7 +167,7 @@ li a {
     .block_date_button {
         display: flex;
         justify-content: center;
-        margin-bottom: 164px;
+        /* margin-bottom: 164px; */
         position: relative;
         z-index: 1;
     }
